@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-class CPoint
+class C2DPoint
 {
 private:
 	int m_xPos;
@@ -25,7 +25,8 @@ public:
 
 int main()
 {
-	CPoint ptA;
+	C2DPoint ptA;
+
 	ptA.setAxis(5, 6);
 	cout << "point axis is (" << ptA.getXAxis() <<
 		", " << ptA.getYAxis() << ")" << endl;

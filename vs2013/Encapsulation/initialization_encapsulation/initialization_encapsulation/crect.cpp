@@ -8,14 +8,14 @@ CRect::CRect() {
 	cout << "CRect default constructor called." << endl;
 }
 
-// ¶ÔÏó³ÉÔ±ÁÐ±í·½Ê½
+// å¯¹è±¡æˆå‘˜åˆ—è¡¨æ–¹å¼
 CRect::CRect(int x1, int y1, int x2, int y2) :
 	m_ptRB(x2, y2),
 	m_ptLT(x1, y1) {
 	cout << "CRect overload constructor called." << endl;
 }
 
-// º¯Êý¹¹Ôì·½Ê½. ×¢Òâ: ÔÚ±¾Àý×ÓÖÐÊ¹ÓÃÕâÖÖ·½Ê½³ÌÐò»á±ÀÀ£. ÕâÉæ¼°µ½ÁËÁíÍâÒ»¸öÖªÊ¶µã: assignment operator overloading.
+// å‡½æ•°æž„é€ æ–¹å¼. æ³¨æ„: åœ¨æœ¬ä¾‹å­ä¸­ä½¿ç”¨è¿™ç§æ–¹å¼ç¨‹åºä¼šå´©æºƒ. è¿™æ¶‰åŠåˆ°äº†å¦å¤–ä¸€ä¸ªçŸ¥è¯†ç‚¹: assignment operator overloading.
 //CRect::CRect(int x1, int y1, int x2, int y2) {
 //	m_ptLT = C2DPoint(x1, y1);
 //	m_ptRB = C2DPoint(x2, y2);

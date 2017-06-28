@@ -1,4 +1,4 @@
-// InitInheritance.cpp : Ò»¸öÅÉÉúµÄclassÀàĞÍµÄ¶ÔÏóÖĞµÄ³ÉÔ±µÄ³õÊ¼»¯´ÎĞò¡£
+// InitInheritance.cpp : ä¸€ä¸ªæ´¾ç”Ÿçš„classç±»å‹çš„å¯¹è±¡ä¸­çš„æˆå‘˜çš„åˆå§‹åŒ–æ¬¡åºã€‚
 //
 
 #include "stdafx.h"

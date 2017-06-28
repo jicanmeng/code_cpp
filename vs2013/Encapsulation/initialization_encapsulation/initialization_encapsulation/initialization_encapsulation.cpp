@@ -1,4 +1,4 @@
-// initialization_encapsulation.cpp : Ò»¸öclassÀàĞÍµÄ¶ÔÏóÖĞµÄ³ÉÔ±µÄ³õÊ¼»¯´ÎĞò
+// initialization_encapsulation.cpp : ä¸€ä¸ªclassç±»å‹çš„å¯¹è±¡ä¸­çš„æˆå‘˜çš„åˆå§‹åŒ–æ¬¡åº
 //
 
 #include "stdafx.h"

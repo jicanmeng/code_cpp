@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
 	C2DPoint ptA;
+
 	ptA.setAxis(5, 6);
 	cout << "point axis is (" << ptA.getXAxis() <<
 		", " << ptA.getYAxis() << ")" << endl;
